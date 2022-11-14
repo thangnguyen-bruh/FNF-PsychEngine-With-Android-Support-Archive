@@ -7,10 +7,10 @@ import flixel.graphics.FlxGraphic;
 import Controls;
 
 class ClientPrefs {
-	public static var downScroll:Bool = false;
-	public static var middleScroll:Bool = false;
+	public static var downScroll:Bool = true  ;
+	public static var middleScroll:Bool = true;
 	public static var opponentStrums:Bool = true;
-	public static var showFPS:Bool = #if android false #else true #end;
+	public static var showFPS:Bool =  true ;
 	public static var flashing:Bool = true;
 	public static var globalAntialiasing:Bool = true;
 	public static var noteSplashes:Bool = true;
